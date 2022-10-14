@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E6;
+}
+div.contenedor {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+div.contenedor .pregunta {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.3em;
+    width: 90%;
+    text-align: center;
+    color: #353535;
+}
+div.contenedor .botones {
+    margin-top: 30px;
+    margin-right: 200px;
+}
+div.contenedor .botones .btn {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+div.contenedor .si {
+    background-color: #0A976C;
+}
+div.contenedor .no {
+    background-color: #E64980;
+    margin-left: 120px;
+}
+div.Github {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    padding: 15px 15px;
+}
+div.Github img {
+    height: 60px;
+    border-radius: 12px;
+    filter: opacity(.6);
+    transition: all .10s ease;
+}
+div.Github img:hover {
+    filter: opacity(1);
+}
